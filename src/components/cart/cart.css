@@ -1,0 +1,164 @@
+.cart-page {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  height: auto; /* Đảm bảo chiều cao tự động */
+  padding-left: 20px;
+  overflow: visible; /* Không cắt nội dung */
+}
+
+.cart-items {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+#thanhtoan {
+  width: 170px;
+  margin-top: 20px;
+}
+
+#backhome {
+  width: 70px;
+}
+
+.cart-item {
+  list-style: none;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.item-image img {
+  width: 300px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.item-details p {
+  margin: 0;
+}
+
+#but-1 {
+  background-color: #5b615b;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+#but-2 {
+  background-color: #ff1100;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+  z-index: 1000; /* Đảm bảo hiển thị phía trên */
+  position: relative;
+}
+
+.payment-form h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.payment-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5b615b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-button:hover {
+  background-color: #4a4f4a;
+}
+
+/* ShippingInfo.css */
+.shipping-container {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  height: 100vh; /* Chiều cao chiếm toàn bộ màn hình */
+  background-color: #f8f9fa; /* Màu nền nhẹ */
+}
+
+.shipping-form {
+  margin-top: 100px;
+  background: #e67553; /* Màu nền của form */
+  border-radius: 12px; /* Bo góc form */
+  padding: 20px 40px; /* Khoảng cách bên trong form */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+  text-align: start; /* Căn giữa nội dung trong form */
+  max-width: 400px; /* Độ rộng tối đa của form */
+  width: 100%; /* Đảm bảo form chiếm toàn bộ chiều rộng container */
+}
+
+.shipping-form h3 {
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: #050505;
+  text-align: center;
+}
+
+.shipping-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.shipping-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.shipping-form button {
+  background-color: #e64a19;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; /* Căn giữa ngang */
+  align-items: center; /* Căn giữa dọc */
+  text-align: center;
+}
+
+.shipping-form button:hover {
+  background-color: #e64a19;
+}
+
+.message {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}

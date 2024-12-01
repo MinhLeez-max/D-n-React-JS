@@ -1,0 +1,38 @@
+.feed{
+    padding-top: 60px;
+    display: block;
+}
+.uses{
+    display: flex;
+   
+    flex-wrap: wrap;
+
+}
+.usess{
+    width: 307px;
+  
+    border-right: solid 1px rgb(173, 173, 173);
+    border-bottom: solid 1px rgb(173, 173, 173);
+    border-top: solid 1px rgb(173, 173, 173);
+
+}
+.addcmt{
+    margin-top: 30px;
+}
+.titlefeed{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    color: #999494;
+    font-weight: 800;
+}
+.formfeed{
+    background-color: rgb(130, 130, 130);
+    width: 348px;
+
+    margin-top: 10px;
+}
+#at1{
+    width: 70px;
+}

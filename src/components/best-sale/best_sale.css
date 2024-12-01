@@ -1,0 +1,95 @@
+/* Container tổng - Flexbox để chia thành 2 cột */
+.best-sale-container {
+    display: flex;
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    justify-content: space-between; /* Đặt khoảng cách giữa hai cột */
+    max-width: 1200px; /* Giới hạn chiều rộng */
+    margin: 0 auto; /* Căn giữa container */
+    padding: 20px;
+    gap: 20px; /* Khoảng cách giữa hai cột */
+}
+
+/* Cột hình ảnh */
+.best-sale-image {
+    flex: 1; /* Chiếm 50% không gian */
+    text-align: center; /* Căn giữa hình ảnh */
+}
+
+.best-sale-image img {
+    width: 100%; /* Hình ảnh chiếm toàn bộ chiều rộng */
+    max-width: 500px; /* Giới hạn kích thước tối đa */
+    height: auto; /* Duy trì tỷ lệ khung hình */
+    border-radius: 10px; /* Bo góc hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+}
+
+/* Cột thông tin */
+.best-sale-info {
+    flex: 1; /* Chiếm 50% không gian */
+    text-align: left; /* Căn chữ sang trái */
+}
+
+.welcom {
+    font-size: 36px;
+    font-weight: bold;
+    color: #EA6D27;
+    margin-bottom: 20px;
+}
+
+.welcom1 {
+    font-size: 20px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-sm {
+    display: block; /* Mỗi thông tin trên một dòng */
+    font-size: 18px;
+    color: #555;
+}
+
+/* Mạng xã hội */
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Khoảng cách giữa các icon */
+    font-size: 24px;
+    color: #EA6D27;
+    margin-bottom: 20px;
+}
+
+/* Nút */
+.button-group {
+    display: flex;
+    gap: 15px; /* Khoảng cách giữa các nút */
+}
+
+.but-best, .but-best1 {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Nút Menu */
+.but-best {
+    background-color: #EA6D27;
+}
+
+.but-best:hover {
+    background-color: #d95f1f;
+}
+
+/* Nút Đặt bàn */
+.but-best1 {
+    background-color: #EA6D27;
+}
+
+.but-best1:hover {
+    background-color: #d95f1f;
+}
